@@ -1,3 +1,51 @@
 body {
   font-family: verdana;
 }
+
+body {
+  background-color:#A5ACAF;
+  margin: 0px;
+}
+
+.header
+{
+  background-color: #A71930;
+  display: flex;
+
+}
+
+nav{
+  line-height: 85px;
+}
+
+.title
+{
+  margin: auto 10px;
+}
+
+.nav-link
+{
+  margin: auto 10px;
+  color: #878d90;
+}
+
+.post-table
+{
+  width:95%;
+  border: 1px solid #A71930;
+  margin: auto;
+}
+
+tr:nth-child(even){
+  background-color: #878d90;
+}
+
+.login-container
+{
+  margin: 10px;
+}
+
+.login-table
+{
+  border: 1px solid black
+}
